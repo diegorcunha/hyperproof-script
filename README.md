@@ -3,10 +3,9 @@
 This GitHub Actions workflow automates the rotation of your Google Maps API key and securely stores the new key in Azure Key Vault. It runs every 90 days or can be triggered manually.
 
 ## 📄 Workflow File Location
-bash
-Copy code
+```
 .github/workflows/rotate_google_maps_api_key.yml
-
+```
 ## 🔧 How It Works
 
 Creates a New Google Maps API Key:
