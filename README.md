@@ -29,9 +29,13 @@ Enable the Google Maps API in your Google Cloud Project.
 Create a service account and download the JSON key.
 
 Azure Setup:
+
 Create an Azure Key Vault.
 Set up an Azure Service Principal with permissions to write secrets.
-GitHub Secrets Configuration: Add the following secrets to your repository:
+
+
+## GitHub Secrets Configuration: 
+Add the following secrets to your repository:
 	
 | Secret Name  |  Description | 
 |:-----------------|:-----------------------------------------------------------|
